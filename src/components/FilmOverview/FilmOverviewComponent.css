@@ -1,0 +1,40 @@
+.film-overview-img-container {
+    padding: 30px;
+}
+
+.film-overview-grid-container {
+    display: grid;
+    grid-template-columns: 600px auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.film-overview-grid-container div {
+    margin: 30px;
+}
+
+.film-overview-img-card-container {
+    grid-row: 1 / span 3;
+}
+
+
+.film-overview-img {
+    width: 100%;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    padding: 8px;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
